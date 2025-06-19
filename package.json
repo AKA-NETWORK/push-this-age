@@ -1,10 +1,17 @@
 {
   "name": "push-this-age",
   "version": "1.0.0",
-  "description": "\"# PUSH THIS AGE CLI: CODE LIKE THE FUTURE DEPENDS ON IT\"",
-  "main": "index.js",
+  "description": "PUSH THIS AGE CLI: CODE LIKE THE FUTURE DEPENDS ON IT",
+  "main": "bin/cli.js",
+  "bin": {
+    "pta": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0"
   },
   "repository": {
     "type": "git",
@@ -12,9 +19,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akabarki76/push-this-age/issues"
-  },
-  "homepage": "https://github.com/akabarki76/push-this-age#readme"
+  "license": "ISC"
 }
